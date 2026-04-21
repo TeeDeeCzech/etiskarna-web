@@ -1,0 +1,21 @@
+.footer-bar {
+  @apply bg-[#1a1c1e] w-full border-t border-slate-800/20;
+}
+
+.footer-container {
+  @apply flex flex-col md:flex-row justify-between items-center
+         px-32 py-24 gap-12 w-full max-w-[1920px] mx-auto;
+}
+
+.footer-link {
+  @apply font-manrope text-[10px] uppercase tracking-[0.1em]
+         text-slate-500 hover:text-primary transition-colors duration-200;
+}
+
+.footer-icon-link {
+  @apply text-slate-500 hover:text-primary transition-colors;
+}
+
+.footer-copyright {
+  @apply font-manrope text-[10px] uppercase tracking-[0.1em] text-slate-500;
+}

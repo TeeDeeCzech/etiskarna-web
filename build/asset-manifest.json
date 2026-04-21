@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b01e5f6.css",
+    "main.js": "/static/js/main.2d208da0.js",
+    "static/media/etiskarna_tiskovy_arch_mereni.avif": "/static/media/etiskarna_tiskovy_arch_mereni.7085fa172b39c31740cb.avif",
+    "static/media/3D_plasticke_pismo.avif": "/static/media/3D_plasticke_pismo.831a581ce43adde8318b.avif",
+    "static/media/ofsetovy_tisk_mereni.avif": "/static/media/ofsetovy_tisk_mereni.4ba1b4ad66495d24f53a.avif",
+    "static/media/komplexni_zpracovani_tiskovin.avif": "/static/media/komplexni_zpracovani_tiskovin.38007ed53cf9d589e4a3.avif",
+    "static/media/grafika_DTP_etiskarna.avif": "/static/media/grafika_DTP_etiskarna.24093590321a9dd1d477.avif",
+    "static/media/tisk_letaku_etiskarna.avif": "/static/media/tisk_letaku_etiskarna.d3121defbcec158a55db.avif",
+    "static/media/tisk_plakaty_etiskarna.avif": "/static/media/tisk_plakaty_etiskarna.9c258ced77970e5f3663.avif",
+    "static/media/tisk_letaku_rezacka.avif": "/static/media/tisk_letaku_rezacka.595027ae83b4be0c9161.avif",
+    "static/media/etiskarna_logo_grafika.png": "/static/media/etiskarna_logo_grafika.d75a5f5823e7467fc127.png",
+    "index.html": "/index.html",
+    "main.9b01e5f6.css.map": "/static/css/main.9b01e5f6.css.map",
+    "main.2d208da0.js.map": "/static/js/main.2d208da0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b01e5f6.css",
+    "static/js/main.2d208da0.js"
+  ]
+}

@@ -1,0 +1,4 @@
+.poptavka-gradient-btn {
+  @apply text-white;
+  background: linear-gradient(135deg, #004cca 0%, #0062ff 100%);
+}

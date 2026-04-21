@@ -1,0 +1,46 @@
+/* ── Buttons ── */
+
+/* Solid blue CTA — add padding separately (e.g. px-8 py-3 or px-10 py-5) */
+.btn-primary {
+  @apply bg-primary text-on-primary font-bold uppercase text-xs tracking-widest
+         hover:opacity-90 transition-all active:scale-[0.98] duration-300;
+}
+
+/* Ghost outline — add padding separately */
+.btn-outline {
+  @apply bg-white/80 backdrop-blur-md border border-outline-variant
+         font-manrope uppercase tracking-widest text-xs font-bold
+         hover:bg-primary hover:text-on-primary transition-all shadow-sm;
+}
+
+/* White/black button used inside product card hover overlay */
+.btn-ghost-white {
+  @apply bg-white text-black font-bold uppercase text-xs tracking-wider;
+}
+
+/* ── Typography helpers ── */
+
+/* Small uppercase section label above headings */
+.section-label {
+  @apply text-xs font-bold tracking-[0.3em] uppercase mb-4 block;
+}
+
+/* ── Layout ── */
+
+/* Centered max-width container for ultra-wide layouts */
+.page-inner {
+  @apply w-full max-w-[1920px] mx-auto;
+}
+
+/* ── Brand logo text (Navbar + Footer) ── */
+.brand-logo-text {
+  color: rgb(15, 23, 42);
+  letter-spacing: -1.2px;
+  text-transform: none;
+}
+
+.brand-logo-text-light {
+  color: #ffffff;
+  letter-spacing: -1.2px;
+  text-transform: none;
+}

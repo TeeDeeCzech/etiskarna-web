@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Shared component classes ── */
+@import './styles/shared.css';
+
+/* ── Material Symbols icon weight ── */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+/* ── Global base styles ── */
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* ── Custom CSS properties not expressible via @apply ── */
+
+/* Blue gradient for primary CTA buttons (Katalog page) */
+.precision-gradient {
+  background: linear-gradient(135deg, #004cca 0%, #0062ff 100%);
+}
+
+.ghost-border {
+  outline: 1px solid rgba(194, 198, 217, 0.2);
+}

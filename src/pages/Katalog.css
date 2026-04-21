@@ -1,0 +1,36 @@
+/* ── Product card (26 kusů v gridu) ── */
+
+.product-card {
+  @apply bg-white overflow-hidden flex flex-col h-full;
+}
+
+.product-card-img {
+  @apply w-full h-full object-cover transition-transform duration-700
+         group-hover:scale-110;
+}
+
+.product-card-overlay {
+  @apply absolute inset-0 bg-black/40 opacity-0
+         group-hover:opacity-100 transition-opacity
+         flex items-center justify-center gap-4;
+}
+
+.product-card-body {
+  @apply p-8 flex flex-col flex-grow;
+}
+
+.product-card-title {
+  @apply text-2xl font-bold tracking-tight mb-3;
+}
+
+.product-card-desc {
+  @apply text-on-surface-variant text-sm leading-relaxed mb-6 flex-grow;
+}
+
+.product-card-footer {
+  @apply flex justify-between items-center mt-auto pt-6 border-t border-surface-container;
+}
+
+.product-detail-link {
+  @apply text-primary font-bold text-xs uppercase tracking-widest hover:underline;
+}
