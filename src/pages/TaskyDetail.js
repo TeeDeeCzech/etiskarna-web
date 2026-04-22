@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuAAhfYnstle5lDg8Aqy0RsXeKTmaT-QIwRa1kuC6_M4luHCJ0h3yiFVMPmSxDaXPln5MuKxQplsVG6UndzclTtSdF1LaYy471thR1Zg-zF8DeECfwzF7woA7tkYjPsyNeotzntUIuVexOWO5F6YsndMpoWbdfk1jh1eLH79JmiP1YZbCOhAEXkm9lkPoGeF338OqhWH2ncKQbtppK26uaU5r_BHT7ImfbR-pJIccZEG9rloPIYCd6ozUNAdpF9wxFkD32di9X6rdJk';
 const textileImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDuw3bAgilPhveqbRW8jQmbHkKVclWO_N0K_HShm2i00nYDgzSctRGkoymHQBl-Ol7e7L2e95wRhFDY6E3Ni4zSiWYX2qgv8CZLiaR8qmCSqQJyKIINuK30JwVBHecDerVyb0dWp4NHasNUrpiX8yixBIoeRMTHMzrEwWkSZJu416s_1pux0726d7nNmiYWKm1YES8pgcJzRIcPyF24f9Pa5ubBoB-3VuXI20c6pdvSDuSaPgXZtAGVMjJ8KjDgaD8SnAbiClffIfc';
@@ -241,6 +242,7 @@ function TaskyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

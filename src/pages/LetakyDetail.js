@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 import heroImg from '../images/tisk_letaku_etiskarna.avif';
 import rezackaImg from '../images/tisk_letaku_rezacka.avif';
 
@@ -203,6 +204,7 @@ function LetakyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

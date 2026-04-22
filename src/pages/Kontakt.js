@@ -1,6 +1,7 @@
 import './Kontakt.css';
 import { Helmet } from 'react-helmet-async';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
@@ -20,7 +21,8 @@ const localBusinessSchema = {
 
 function Kontakt() {
   return (
-    <main className="pt-32 pb-0 px-32">
+    <>
+    <main className="pt-32 pb-16 md:pb-0 px-6 md:px-32">
       <SeoHead page="kontakt" />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
@@ -32,7 +34,7 @@ function Kontakt() {
           <div className="lg:col-span-8">
             <span className="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">Spojte se s námi</span>
             <h1 className="text-5xl lg:text-8xl font-extrabold tracking-tighter text-on-surface leading-[0.9] mb-8">
-              Kontakt –<br />eTiskarna Praha 15.
+              Kontakt
             </h1>
           </div>
           <div className="lg:col-span-4 pb-4">
@@ -148,6 +150,8 @@ function Kontakt() {
       </section>
 
     </main>
+    <MobileBottomNav />
+    </>
   );
 }
 

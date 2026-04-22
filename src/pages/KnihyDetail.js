@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCq9ylbyXvbVahywlUj6Gh5u_ZGqdf1Oj5-ifaiDrGwjX9VhIO40TyI2OL8dlOxB9jSG753goWND4osA52c8srN30Lfp7BeQOPGZJLy7ohA7brxl8jd3QM2C08idpy989R1oLnmsDKJTJrtOgAXHUKAtFrKIoLfWsUmgnB57-i6bSP5ehN2gQWjXxJvrguHZmed1cc4XUEuup_-KqFeTf_YyfOVxGkW9DUWHcxwBALMYLT2vHwZ5NVe2hVst68DzGTxYIjL_H_7HaA';
 const materialImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuB1n5yiVq5toP2DivGZ-my6Mu8sH11qhIl-HgqgzyXR-OTvYrpGNHObrErGCS9sS51rojYIhSKdHqdoI83uMiFRxm0I5MbpJO6IhRtTdBANnpAIogYoGeNWU8PI7eYw9ARqraHfmgK3j7Bg_NfZL2H3-Lfr4iL_zxZqa-hdXuYFVeTXVdScw2nrv-4wgE5pSEPx0F_A9FAM-PKXU5Ay2y8oLviNyYkzzSy3PLD5Y1baJQ5fYIwpiKCDyD1DBkI7E3j4V47o1f8K_5g';
@@ -246,6 +247,7 @@ function KnihyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

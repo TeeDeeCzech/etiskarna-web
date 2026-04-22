@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCx253JJUffmad2VXL_Jf_R23wTrkxHZNGSgOOCnKDa71J_fdLpB-4BHP95xcuYyh6bueKs7bfreqK6gw0bKz1omwbWFQjaBqPf7igqUr1WV8zD_8EtupL-jOAfj8x0reeVL0pnZdsOaXQLtYnFZBghq76YsoBfZ5esKI471iO0ypNq80IjqglHe37lfrpDQ8e6uiA_MCzTePlMOFDsnC2ckMJ1IFGEBhmXt7QH6XKoENN65OMfIhE-UdZWkld998vlKHyQg2DVHH8';
 const textureImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuAvFcm0Vsk5r__k5u6IUVfWUtUB704ix7r0hYjsYbldgtsVMFmdsxzgUpyLOdcJMIcsW2BC6hzYTmSD-7U94sT_-R1CoTj0nS9R6BuXgYR14vRcFT0E4vLt3VyNuGKTPYZu-cgdDhc-Joo2K_d3vsH6u-GFdhmHMjPqnOFuU1WwyNLcIAoM2LRlrS1iHmKAhFtpa0pmJf7M1aVMr8QFztzDTAJrH2MzGDl69s03Rb5yOkd8VNQfjXSnbUxv8r2i-mxsim3ASPjlxo8';
@@ -221,6 +222,7 @@ function ObalkyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

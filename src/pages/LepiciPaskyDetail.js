@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuAJiB54xXTnbSV5IB0h9asB-8U_zaSm5cetTcjQaIJGNutBAXA2SNumLWeOI38RYPQH4YSVHIc5oirsoEWMGMOydnaT4H6tNcXHPkF76MlicQbButB4fG3V0-Ali6HEhtqd-2zFcu72o9NdZwdwBSXq9n_kBr8ykEK4m3gdgsoDDXsPfX3DfVWjoWqA24AmhcheTWLIXEFChIPsTVec9hv-n3aWTF0Xxtzkhi9-Jmr4qMlVkT9G4IVbCOXilz7CzU5759LO8sFZAQ';
 const warehouseImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuB8NWbQubUwDJKknYXHBV2g9u5z8rG4c30DfxNR15HBDJA2J5blhtL_Zz8s6kN6dPEaqaNy3x7-dakuKJsKQ8p3OV87nDAMWv1lk0GP2MGtiHIkj5TwrlNdhn2l4VyOSAYQ_4u4sdU61G-3uuZuZ0uPbfqMZp0bLT790FS2UzJUGFN-bcmJXTGQDzInO5MPyRTf2TPklAPP9jObUfn9ORtDGGIz2uSjdnKOVNg3UluQ6hG7hQEUbTiKnvwlbswpJ68hhGFZc3a387k';
@@ -257,6 +258,7 @@ function LepiciPaskyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCH29CxpAa4buNy3RHVBsIn0zZVGPewP4fi6bpp9iEKyuL38gdPBzRgeAQWDUFJWsnoz-TfeEVmusEm45p1p33gtoftuyqs_HUsYMDWI2mkCM-1k4VEJmImm2K4LgdNxM1tmA7Q2ZOAS2fnL6QdsQ0W9bIJPDmEjUV7okmj2TaSSZN91J1Rt_thMMlq9Kp1XM5H72vwWwKhEbncUtifY6Z5BTzHMkrYH-RfkAfvIb9AU-6TDACHAlyMAB7IjQASFn5gbqS--Zo5i2E';
 const techImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuBu6MSeICvUBHQgNIjB9JzI24enZVeS0FLgq8cosuhAkJTCtcLztet6cCjjrJ0eze3aby0wp-kNA1RLbnqwFFBgaMxaTi8rt4rXDB4iLkH0H0gvgToQ_Xrzb5k5BwXwNYjJ-cB0MIGNMKZb0ftZSiozLSg9SYD4yXJg-Re1GJV9fpvxAHvvOHsFJJqhr5vUhQjlcuZdLUgsEF0xvU4zzMxruez-TmQmocrD9K-CxcpA2fRXVVqJRURL1TI_9ODaMef84nr6eoaXY1c';
@@ -218,6 +219,7 @@ function VstupenkyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 import heroImg from '../images/tisk_plakaty_etiskarna.avif';
 
 function PlakatyDetail() {
@@ -218,6 +219,7 @@ function PlakatyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

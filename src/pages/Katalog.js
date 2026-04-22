@@ -1,6 +1,7 @@
 import './Katalog.css';
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const products = [
   {
@@ -198,7 +199,7 @@ function Katalog() {
   return (
     <>
       <SeoHead page="katalog" />
-      <main className="pt-32 pb-16 px-32 bg-background">
+      <main className="pt-32 pb-16 px-6 md:px-32 bg-background">
         {/* Title Section */}
         <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-3xl">
@@ -254,6 +255,7 @@ function Katalog() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

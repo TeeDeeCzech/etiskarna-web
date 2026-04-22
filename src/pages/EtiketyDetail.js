@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCNi2peD1SsTlDa4S7nBZx2KwBuwonv_X8qx8ePac_0WTs89WAzkpqGHJO3HEgjpKHa-4Jal-JwsNj8ux7LSZHzlu2JhfPM_tcLVcrfAimgRnCmlHwrciWBX8e-jw1p1vQG2CM0A0NlRuCI2ahHOL0sQgEOf1suhGcoL7Zfw988KHK19T1wLQXCCYk5ElytXsa4nTCs-DEAIWjkBnx5VGhenM7zekOeKZTGF-3ESkxPySzUIwM7ujmh5L4jVE0ZZnHk0ZDcC503qSo';
 const galleryImg1 = 'https://lh3.googleusercontent.com/aida-public/AB6AXuC6wOf7tlzuh_NiiSQp2ADQY3MKHvWijkCvmQiihDHNzMuLqF-c5M7S5rbUf2JKA_I0jtE182aXQ3NNV05m_ICyeXPcRyhv7LDOH61y8zpYwWhLAnmygCRJkORMjaEspi3zADUND1LUUCEJq8gNSm_-JBZ7skCRVMNAq2Nz6bsXLFOfpEjYfJ83Ad02gBc_MeAo3n5ZhIAVH-QLWWcG-bxDHSu9pbVo_TSekRDKwuTOZ-0o981L-lLdGNjgNmpoj_VVCNJGG0N-ZbU';
@@ -239,6 +240,7 @@ function EtiketyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

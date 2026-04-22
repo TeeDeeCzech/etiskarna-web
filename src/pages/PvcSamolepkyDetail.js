@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDUFD_FbSxFtRnPECJVdyNqnN2dkREkTocUXUfSpfMDk3X6wVKrskpdTw0lAb7wBBMvJaiyZ6WPJSV45N5FqhTTpkNHt6Q9dDQqcF6uXkUimzfERBUPyfrJL4-oOLXfuy3R8Knl6GDg9Dgfh_-mfkrHGhoe_fhGrpgyuvtQb_uUl3HUOFKx4ZjzvZOJDxO8cNySbWZiIGgJYUGvIULbk5w8BG9e4O4tSJqNrRcUbyij_sCux8EBAv6zXYqqrsK6e478L6ctQuUvRb4';
 const applicationImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCgYd1QyyznNBY4FDth9ZM1b27sVKj0penParwPBhGapYfD0zxTBPUod8MsU8VmU7rHN67_rtK0rKZ0KNI8U-3suUyQ6AeC0IEfXSbMabrl9snKCguW_HSzzbnq8dE--TS5uL1WeU7yYjN17GuITKpH9Q8Yl7HGNzoPFkUCrbnNv9BLH-lcmRmBrYwGRNFz4FMEQ9PwXQlr2kvTgn1fZlBDxYl7STt87VJgA41lT8xgacx2rRPqOoXu0LjrGXnTKzPaIbr3R6cUxdc';
@@ -222,6 +223,7 @@ function PvcSamolepkyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

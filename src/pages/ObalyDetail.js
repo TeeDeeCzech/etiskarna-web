@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCJMXGUsyGig-BKVfE3nF_Hha6ITRC82dv6I9tT8ee9cXVeX1H-HjzU1u7zaI6B4YtjO1cofStGxWip0Eboa0W_BnfdaCtMxE3vj50eJaBIJX2cdV6ovqfy0jenzQfE5wNetl_VgpheOBlC1o4x3w5PttxV1HS6_kxfa2Y9V8wLfeu-YomSD21XRPY9fKDRHkUJU5T5IIS_u993tO6frbQjxH5wC3FNN7wE0mJHzPls3n59abNs7TIpibjWxp1iOS2qhmJWkHLQqwk';
 const bentoImg1 = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCep_Ua3Fx5noKOKx2ZxNfz_Fiz4nDAYHFDIsobqfmnRbgdlpdCV1B297_UWx_m4ypWMgcdO4askW-len-anL2g-rQVx1gL0M9r8Sd6bt1052D6tdZ9kzcDAGatJws8u5c9C4bZDVP4mmlQP3SasgXi51dSM-5g6YZX-wmwmc19QCXyMqm9Qocygjomm9-UyEWkykvwA_VRwEQmD5nqNy6F4f_FREv9CoaCaAEKRp8a6aM6TS33r2bQaSrXiuTAq4-kuB85BYnlUYw';
@@ -248,6 +249,7 @@ function ObalyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

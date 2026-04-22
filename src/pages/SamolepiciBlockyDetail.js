@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuBkVpI5SFNu6_ViMMsmcuU2YcJJxq-0-eTO4A_jeQPovr308fpJnzIHETak3x63w7QHd0n16bA_bkpBI4sZdWK9RMI1zC7HgqSzbxYvn6Ce7HKQJLOsSyAV31eBpMkNVC8KvRZSzRrDv9QoeNSIQ9cGFG-bMPJdzZbnJoBfy2vrbZ_gRCkippYW2VwM0EiPlMeYAldg5ZkoSHHcqHEYlTCO6XMBjzaE9TbOIhlM9OfPkEEaSpU-dPcHj3LnU6RNoeAAGd8C5wj7aK0';
 const galleryImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuB2S1qtcc6fc9EDrWtsmLFN-_txqk9SIccShh02S-rqVc7wn7IUJjO_ID3mmDBML_ZYAgmpS48svXhgqBN4EjiKM9tPyhXPQtSe5OeQs5l8m2b7qd3wFbAAe5MEUnvuZ21PqaHV1DG8hHdfm4uJO5zxPn9l3EnXZALhO785v1YDnPfx88GjUCJvvuX2UgCu3PgvP9y3S71RWuQ4aa97xwnzr9seYCcC_rP3f29o8q4VHTdAtIK_Ktl407yP_3cCKVdqWKpDaMj0rZM';
@@ -247,6 +248,7 @@ function SamolepiciBlockyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

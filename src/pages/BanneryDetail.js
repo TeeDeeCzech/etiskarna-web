@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDn8X7lKxWEi_N6oTv9M4xur6cpBy_qJqtbHT0SPAHkS68jfBkMxKSvlxBx1GkCyt5sYvlQMKk1DcofcL_5MX3_sR1jl0hbb1YGywMQQTBFuxMwCK0VLjGqDfmV3DviviPyEJL4mY7xp1uZYeWBGHjXzop6U1OUsah9H-drLjx1K-nG2Z3_ktjU0ubLdIFhgEMWyNLYGn0Et2P-nP34gQ1t8BBajdz3XbjbahyFcdAbMFE-lGlCZbkfS_o-0tdx-8R4EMyh5xbordo';
 const uvImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCwtrmaHsL94NR5s41ZCor-d2_MVUksaacbaC8hC-McAvgNVx4SV-uqpLKffAg-Z6r-hkn6D36u1FSnmnsASwKOw_N25oep86jtlYTq11OrQrFBbALia7TbokWWgA9S3tsOXEJzRcEvtl28Pci0XZG2JI5bSw4lgsMFl_Bqd6UVpGUSP7zVolopmM9L4SVmvSLVV3of-BZUdDw8kYnMZ51al9sXseLIRG7AvyoMiffg_-c7yWetGI3nzHNvCDW5K7142voCV8sgQn0';
@@ -254,6 +255,7 @@ function BanneryDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

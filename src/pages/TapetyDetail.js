@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDJ3eMQDh80EG3vO55ZbL1Kbe-aLRrkrK-_JqUINqOaCfbpo3rlRfJurYHvQxjvV6fNDiIujpf7I2AGJi6RnqHD5JUBI8JAgyoPZtTIurtpTRu7lmJU_xxAeY2NjIxPbnQj1xrr6EWEoG8TP88KziJgGGj_4qQncCW4VUkA8_cWZeyWTYVOyk-mM3W_Bmc9bw_vZcFqmMZSc-oI2od9ypUPsRU9nW-sMctneHbO2B3P-gJj3sAIZK6fJCV-hhGypogREFTAvbOwE0E';
 const detailImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuB_1QVB8PHcCr2CpaFZ6z_eZzKfTO8bFzPmB-EzQQbc7QJmxeyFcvD-yUty1aaQlMp0KhLOrejqQZHQUxJGrLsBYfcHPq5B_ZYL1Aga77_SdcL10OWWaMfXqpbSFw71sxNOEDYRlYIRV4kliMwbyMrBS8aov3Ln3A-eSrBLIJ3_qx4xhAgkwfAja6oK_7VL_C_PBEgJnRBl0U7Ys39fsPXePIhpq9Ro-g05la-_PP-g8ncVfeceB-IOC_3oaIDO_RoZPsrs1fRmCs0';
@@ -244,6 +245,7 @@ function TapetyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

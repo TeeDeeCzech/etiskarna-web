@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDAG3K66YMs0Q4h71arTsocEde6fQog_x8QG8SBI7ueJNR9KzQ0F55L_ZrrBK33yDnxihaWvdtSXQ3C9XJH8auzK1UyNJjcBM6BmpDuR8S1tpt28vEzOfMGLlpqQGpTYfeSTyWsPtuK8FqLdRPSN2C2xwwySmAOJA7o1aiQaylurFhbnidmkW4rF7HiwdK8mNOqAJJ5J5mflL9zUYnikcpAdcTayo6hKvrN9Vop9Dp-SGlljAVNAQu2DqK3w8givXIMwIWN1PZZaEA';
 const carImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuB6eEoZY5WMT-56curGkjS7xm1w4Hhx4JxV89kfVCP2LtQK_ejH3ZM0y4WbnnOFybrN5Vcu8aKiwPISXKtQGpnV9nLKRIxqto7JplvY9J2UbvFYbzAElVMRG50Fr-2uOanlla5lnMlEnamwVrIPo0Mh_0PaqdH-LOrmENcuEDbQmzS1Gd9nqcXJnz89xwl3Mnwdg_j0MgsyTkfeX0TtcKWrYRFKAvsesjZONudOxnEYUKaeltQrMA8Zo6ycoikYYqu3MHhxtbnlPKU';
@@ -243,6 +244,7 @@ function RezanaReklamaDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

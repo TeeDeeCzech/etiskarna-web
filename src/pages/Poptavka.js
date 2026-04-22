@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Poptavka.css';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 function Poptavka() {
   const [loading, setLoading] = useState(false);
@@ -41,7 +42,8 @@ function Poptavka() {
   }
 
   return (
-    <main className="pt-32 pb-24 px-32">
+    <>
+    <main className="pt-32 pb-24 px-6 md:px-32">
       <SeoHead page="poptavka" />
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-24">
 
@@ -231,6 +233,8 @@ function Poptavka() {
 
       </div>
     </main>
+    <MobileBottomNav />
+    </>
   );
 }
 

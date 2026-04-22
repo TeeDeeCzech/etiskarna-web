@@ -3,7 +3,7 @@
 }
 
 .nav-container {
-  @apply flex justify-between items-center px-32 py-4 w-full max-w-[1920px] mx-auto;
+  @apply flex justify-between items-center px-6 md:px-32 py-4 w-full max-w-[1920px] mx-auto;
 }
 
 .nav-logo {

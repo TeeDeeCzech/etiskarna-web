@@ -1,9 +1,11 @@
 import './Sluzby.css';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 function Sluzby() {
   return (
-    <main className="pt-24 px-32">
+    <>
+    <main className="pt-24 px-6 md:px-32 pb-16 md:pb-0">
       <SeoHead page="sluzby" />
       {/* Hero */}
       <section className="px-8 py-32 flex flex-col items-start min-h-[716px] justify-center bg-surface">
@@ -145,6 +147,8 @@ function Sluzby() {
         </button>
       </section>
     </main>
+    <MobileBottomNav />
+    </>
   );
 }
 

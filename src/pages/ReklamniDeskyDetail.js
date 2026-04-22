@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroBgImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCkp48A4f_8bcZdsMtJEWVAmetZkbl6fI_22km68bh4QaMIgnmSPIgd5X24uyHWGr9bcO-fAh0-Bsgff9mk3DYIVltc6crHx2TY533VRsAmWup9IgAebPoajhJs4LzMVHH-RfrhRVJsZGozF0OQ70YBR_xgNyRSCGz3Xxi_BDgqUN_lu-KV7qDcc0UaZlsNPjH1ncAfdIklyDmmOQgw33PR_Idg2XUCCBcBzWeAQDa6ULpwx3klja1wYll4VKnFKz6zF5ChVwAM-_Y';
 const heroSideImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuD0ui3P5aek_e1OBivPWY2-IW_KwitiUnJS9HXa4OGn90DTt5dCPRIizENpRpaxO4a8wwVUpYfipc8le3tOBeXVhrnvNtoJs_k2mFyWX3c7IInZ3-gnXOqYlZ4bYXtBZtJtekAgmtqYnNwjyDGtsZGilKGAGLDGoZEOw6fiu757c5MUW3uMD2mkVxPitGzEJkvYJK53zhANT1NOwVI7Te0vVx5vN2OUDyncwfzQi1tuQ1d64-qs39G88oaSTWoGVrH_I-sTL7PRxpM';
@@ -247,6 +248,7 @@ function ReklamniDeskyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

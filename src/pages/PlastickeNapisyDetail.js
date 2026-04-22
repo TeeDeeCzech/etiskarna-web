@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCpUnPQkHzfRVWXOh7jGoPciIFpqjir0iJRGPv0qAOtP5gLyQ486i79IpFSI0MYs4Lz1vRpS0q0N0duG7msc49vhI-HHYfBLs4YQVVlIg1KI0IEYUJMkaAC3q3P88Me5NACumxT0lZfCBMezU-k2htjIgUqC-3FlkJB039D0cXpYgn0b-DfulUqtruc969w-VELCF9eHnv83Qc-ijccR6UlhoL8VEe3h3ldR-mxO8Gz5Mg6EQq7fssH983Fa5yqpG_GZ-pdCWVgzo0';
 const techImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCNeOpUIAdMvXRCYk8sf1mqDK6xKLCIt7cEP_EUVz9N3TjHDYXnj3StcDtAiMjVGv82VKQg05T1GWsq-1xUMz2v4wAoxTiSaeOpNiRepx8rwrKU2dHj7biz906yU_gA7U-nDht7E3ZpBbpzphmUN4R_OkIy4XdSozrtW5v-ppHaVkza-1NWL_DLyn94Cx4pWFHyI9YQhOqKMgss04c4Kd8iREpAWODugVV_SxwIUiYU8mDq-uxk_RQkaHGTRdaNOmOQoX9rWeQgDjU';
@@ -249,6 +250,7 @@ function PlastickeNapisyDetail() {
         </section>
 
       </main>
+      <MobileBottomNav />
     </>
   );
 }

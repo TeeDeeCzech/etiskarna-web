@@ -13,7 +13,7 @@ function Footer() {
           </div>
           <p className="footer-copyright">Every pixel, every drop matters.</p>
         </div>
-        <div className="flex flex-wrap justify-center gap-8 md:gap-12">
+        <div className="flex flex-col md:flex-row flex-wrap justify-center gap-2 md:gap-12">
           <Link className="footer-link" to="/katalog">Katalog produktů</Link>
           <Link className="footer-link" to="/sluzby">Služby</Link>
           <Link className="footer-link" to="/kontakt">Kontakt</Link>

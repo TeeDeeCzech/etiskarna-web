@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuBk35MZZqNAkTQFCUlyvUlyb3lDW0jtTGyOvup4FJEOP0WRxoR1YfxxNzwpqcG7d7cH9PeY4dYpj7zMXY4Tq4Yurl6JlkoI1AadeEALD7qYPKPTvxXEdsERkbrC7uPmyqG9qbN5aEVMxyYd_I-F1Y5TIb1064V_b1gUKSfsHjgxlvUZtE5_D3pYK17LmxztmNZLdTHIgBnwhZt0Z1eOtbjZq1pKRM8Ojkk21-BIsLk0O247o_nM-eLare8I2y7IaUzhhztEh2VWpWA';
 const nastenneImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuAeZFmJrAtHS6SMtaLj1FM0ji4wdHftgoLXStztaQcBZydHCLbUp43J_YQn6NftN74194JxxENNH3OYZtc6MCNWIZXRig2fVVXwFxn13bKEWHSzQT1ilGWyr6_m8jEYgeWoIq_q81DNKX0sy4s1zj3-cu1P0vzqHsi21A8tBo9tnsF_YN-Y7cjyyEEto5Dv9S-dH76mux1FmOcPT0ccLG9s-E9ook6ZXMzpq7c4ZR06YcyV_rCdoG8SvFgUbAxWcmOj8dyT4WDbo-c';
@@ -307,6 +308,7 @@ function KalendareDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

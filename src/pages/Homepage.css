@@ -1,7 +1,7 @@
 /* ── Hero ── */
 
 .hero-section {
-  @apply relative min-h-[921px] flex flex-col justify-center px-32 pt-12 overflow-hidden;
+  @apply relative min-h-[921px] flex flex-col justify-center px-6 md:px-32 pt-12 overflow-hidden;
 }
 
 .hero-bg-img {

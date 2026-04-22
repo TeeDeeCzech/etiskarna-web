@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuBA0kADWi-i2TfVW4_GeQ_q4vbP7dQbQJdDj5421KydsrolbrSMSuHpkRATgZrBwh4tghxfIBp19mj6yoK5nFTrG7yFGirt3uSRNE9thIydgiwEuAb8Vl2uodOtDvFfrz9EaFJ5Wd1oL2iWPTfXWhpgNwtjTBK4iZOTg6tDuM_wbNylpQ9Vgs-H58is2_7cRHRvYXJHVb3FxjC_vWsVEejzUpyJ3meHiYIbd9Sn2BCvXlO6cxymO7EPP9Qgm6Z9ZF56DjwfoIRzqwU';
 const bentoImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDjxup4aZT4hYHKd_SOibJjjs-UE2AvQGd5bna4k9Q-NGgS2Q8rbtGRfzO3W7Tq8TkRIP-yvo0KG-tnvhMWhUMJZL1PAiqpTOmgDhCaHenwMlFBx0W0lQrjQsYjE3fTIp22_1JpeRw07y71H0D-emXI6AUGhKD4KjKTlPdBOyjFsPh-c4w6-qEGXaIe_FNz92JlFtUA247IHJH7QG3ZcPntEU1_BwUNIWl189wo90vEmKJ-yDaOSsJ-HlQLBy7YiExHeppimSyi3oE';
@@ -281,6 +282,7 @@ function PivniTackyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

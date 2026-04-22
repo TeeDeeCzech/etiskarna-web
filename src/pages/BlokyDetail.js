@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuD1LUYJvL8ovcQ2YPOkooBXe3yviQWnpiZJYYUaLeozv-DjmY548z8WSqfoijOO5CueB7exg5POnatlNqLfMXDiBKfrgyO-N-DNDggyiD73Uy1J3CYqzPjWUPqqnAEYdsK_LAAzjmZPoJrEecqPM_9HuGZLuiINrXXXG30wkFC5uodbaR7LQNfPN8Kaa5s1Tw78ygGK-Zku-ex6pA3IZrrc9FOIapSHQukFpY654SpDXNGNvN4FlqSBnR8pQp_4ARZ4-yhQ6-YEbfc';
 const galleryImg1 = 'https://lh3.googleusercontent.com/aida-public/AB6AXuBwfwxXeUfHVDFCe0XW4jUP4j8rYpurRJSEqBuRjpbpQ0q5Q7Tnl4VbYgAmb9pdLHE47-B0ZGIkcipE93dxLwUGGnAFg2SyLH3-weUCwp7J2o-84DXaVt0Vcpt8QYfeKcFznyjLqWewFxAijElsJPnCsBMAxK5ZgUvvWz7IZNCx7QCbipYNA2QuXWRlDWt5GWB5TBr25RWqQ9dK8Lc1n2ThGmNqQDs-eg0VwIKt-SyVtq4-fyPRx6asucZrpfepuNni1XTTKfU0_gE';
@@ -217,6 +218,7 @@ function BlokyDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }

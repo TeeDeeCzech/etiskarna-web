@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SeoHead from '../seo/SeoHead';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 const heroImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuBhIp0aP53uas7AGcsXwCdWmREtfvmxI_M_5fGwn-Vv0VcNJocGnmWlV78RbVhPC2a5iLK9GHCeXSOI2rthOJUCzQPb6s5lkJxzbpBwQHpVmGaAJPLf5vtIMG-oD8-FaFqpgrjReARZYyrAsVelf9lzhXDwSoPsO3T7RuDcGcF_DzbH8rG0EmAtJtt5BOx1aiav28GBfExgE_TZ8lnAJif9QZJLvCqsAI4-2mUX3MRWXmWH4-K0K_IfB3lYO7mFZ9GACgqd7mBxvR0';
 const trikaCImg = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDJMuc1tWCNFfoXKpgI4m0vkLEj9F9kiS3_Kb0_F2snr2HNCnOjfkRGILhz889-hGAEqE963QdR24kxgIqZi2zxYT0VQYkR8ilynOsUZycLwTlqAbevsqR9Cnp7uP2GeBzge-_ArSn6WBWJGtbFakjaSGanvBxfZl10fTPCwEgU9c4zHzWPvT6qGEUacVTsHnVfMZO4a_WY8iPIPKP2lvT9b7kCkbriM4gT7YrX01yHr0wGPDUDHRh1dr_p16uyT8xTVLrP-5LnewI';
@@ -233,6 +234,7 @@ function TextilDetail() {
           </Link>
         </div>
       </section>
+      <MobileBottomNav />
     </>
   );
 }
